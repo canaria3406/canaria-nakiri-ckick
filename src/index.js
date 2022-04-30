@@ -14,7 +14,7 @@ function getRandomSound() {
 }
 
 //Soundpack will update soon
-function getRandomInt(max = 5) {
+function getRandomInt(max = 23) {
 	let f = Math.floor(Math.random() * max) + 1;
 	f = f.toString().padStart(3, "0");
 	return f;
